@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'CopenhagenGrotesk-bold';
+    src: url('fonts/CopenhagenGrotesk-bold.otf')
+}
+
+@font-face {
+    font-family: 'CopenhagenGrotesk-light.otf';
+    src: url('fonts/CopenhagenGrotesk-light.otf')
+}
+
+@font-face {
+    font-family: 'CopenhagenGrotesk.otf';
+    src: url('fonts/CopenhagenGrotesk.otf')
+}
+
+*{
+    
+}
+
+#logo_box {
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+#logo {
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#question{
+    font-family: 'CopenhagenGrotesk-bold';
+    text-align: center;
+    color: #241c4b;
+}
+
+/* ---------- Bouton 1 ----------- */
+
+#bouton_oui{
+    list-style-type: none;
+    text-align: center;
+    background-color: #05b2bb;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 15px;  /* gère l'espace à l'intérieur du bouton */
+    width: 200px;
+    border-radius: 20px;
+}
+
+#bouton_oui a{
+    font-family: 'CopenhagenGrotesk';
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#bouton_oui a:hover{
+    color: #241c4b;
+}
+
+/* ---------- Bouton 2 ----------- */
+
+#bouton_non{
+    list-style-type: none;
+    text-align: center;
+    background-color: #e44858;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 15px;  /* gère l'espace à l'intérieur du bouton */
+    width: 200px;
+    border-radius: 20px;
+}
+
+#bouton_non a{
+    font-family: 'CopenhagenGrotesk';
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#bouton_non a:hover{
+    color: #241c4b;
+}
