@@ -51,6 +51,7 @@
 }
 
 #bouton_oui a{
+    display: block;
     font-family: 'CopenhagenGrotesk';
     color: #ffffff;
     text-decoration: none;
@@ -75,6 +76,7 @@
 }
 
 #bouton_non a{
+    display: block;
     font-family: 'CopenhagenGrotesk';
     color: #ffffff;
     text-decoration: none;
