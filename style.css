@@ -36,7 +36,7 @@
     text-align: center;
     color: #241c4b;
 }
-/* ---------- Bouton 1 ----------- */
+/* ---------- Bouton Oui ----------- */
 
 #bouton_oui{
     list-style-type: none;
@@ -61,7 +61,7 @@
     color: #241c4b;
 }
 
-/* ---------- Bouton 2 ----------- */
+/* ---------- Bouton Non ----------- */
 
 #bouton_non{
     list-style-type: none;
